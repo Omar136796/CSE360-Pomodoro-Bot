@@ -98,11 +98,9 @@ An **Arduino Uno desk companion robot** that helps students and office workers s
 ## How to run
 
 1. Install the **Arduino IDE** (2.x).
-2. Install these libraries from *Library Manager*:
-   - `LiquidCrystal I2C` (the Frank de Brabander version, which provides `lcd.begin()`)
-   - `SimpleDHT`
-   - `RTClib` (Adafruit)
-   - `DFRobotDFPlayerMini`
+2. Install the libraries:
+   - **LiquidCrystal_I2C** from [fdebrabander/Arduino-LiquidCrystal-I2C-library](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library). Download it as a ZIP, then use *Sketch → Include Library → Add .ZIP Library*. This version provides `lcd.begin()` with no arguments, which the sketch uses.
+   - From *Library Manager*: `SimpleDHT`, `RTClib` (Adafruit) and `DFRobotDFPlayerMini`
    - `Servo` and `SoftwareSerial` come with the IDE.
 3. Copy the audio clips onto a microSD card (FAT32) in a folder named `mp3`, then insert it into the DFPlayer:
 
