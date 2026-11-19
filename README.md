@@ -3,6 +3,7 @@
 An **Arduino Uno desk companion robot** that helps students and office workers stay productive. It runs Pomodoro focus/break sessions and warns when you sit too close to the screen. It also monitors temperature, humidity and noise, controls a desk light automatically, reminds you to drink water, and pauses when you walk away. All of this is controlled with touch gestures on one sensor, with spoken audio alerts.
 
 **Course:** CSE360 – Computer Interfacing, BRAC University (Spring 2026)
+
 **Team (Group 03, Section 06):** Omar Faruk, Raiat Reza, MD. Abir Hasan Piash, Tanzim Ahmmed
 
 <p align="center">
